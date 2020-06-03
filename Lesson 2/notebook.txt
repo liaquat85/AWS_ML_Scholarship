@@ -1,4 +1,14 @@
 clean modular and efficient 
 easily resue and share your code 
 effective documentation and version control help you in projects 
-github 
+github commands 
+git init
+git add . 
+git status 
+git commit -m "changed file1"
+git branch login
+git checkout 
+git merge login 
+git push 
+git pull 
+
