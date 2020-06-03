@@ -1,6 +1,8 @@
 clean modular and efficient 
 easily resue and share your code 
-effective documentation and version control help you in projects 
+effective documentation 
+aversion control
+
 github commands 
 git init
 git add . 
