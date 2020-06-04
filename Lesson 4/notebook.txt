@@ -1,30 +1,48 @@
-clean modular and efficient 
-easily resue and share your code 
-effective documentation 
-aversion control
-github commands 
-git init
-git add . 
-git status 
-git commit -m "changed file1"
-git branch login
-git checkout 
-git merge login 
-git push 
-git pull 
+classes and objects
+attributes and methods
+magic methods
+inheritance
 
-testing 
-bad encoding
-inappropiate features
-unexpected features
+py -m venv env
+.\env\Scripts\activate
+pip install .
+deactivate
 
-test driven developments --
-writing tests before developing code to implement task
 
-Unit tests -- 
-pytest 
+pip install --upgrade .
 
-write test script before writing function 
-code reviews - catch error, ensure readability, check standards are met, share knowledge among teams
+commands to install library on pypi
+first make sure you have files as 
+folder-- 
+	which has all code files
+	README.md -- description of the file 
+	__init__.py -- contains the name of the files u need 
+	license.txt -- MIT license copy paste
+	setup.cfg -- [metadata] description-file = README.md
 
+write this command 
+	python setup.py sdist
+
+after that there will be a folder by name of dist and one with packagename_egg-info
+which contains the tar.gz file 
+
+after write 
+	pip install twine
+	twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+after that enter your username and password of test.pypi.org login 
+and then it will upload to your profile in test.pypi.org
+
+after you can install the pacakge from test.pypi.org by this command 
+	pip install --index-url https://test.pypi.org/simple/ gb-ali-distributions
+
+if you want to upload it to pypi.org then write this
+	twine upload dist/*
+enter your username and password and it will upload to pypi.org 
+to uninstall the package write 
+	pip uninstall gb-ali-distributions
+and install again by 
+	pip install gb-ali-distributions
+
+but in python coding you will use gb_ali_distributions 
+	
 
