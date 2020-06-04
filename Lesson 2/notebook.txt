@@ -13,4 +13,5 @@ git checkout
 git merge login 
 git push 
 git pull 
-
+git config --global user.name 'liaquat85'
+git config --global user.email 'liaquat85@gmail.com'
