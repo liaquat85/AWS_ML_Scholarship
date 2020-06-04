@@ -1,0 +1,30 @@
+clean modular and efficient 
+easily resue and share your code 
+effective documentation 
+aversion control
+github commands 
+git init
+git add . 
+git status 
+git commit -m "changed file1"
+git branch login
+git checkout 
+git merge login 
+git push 
+git pull 
+
+testing 
+bad encoding
+inappropiate features
+unexpected features
+
+test driven developments --
+writing tests before developing code to implement task
+
+Unit tests -- 
+pytest 
+
+write test script before writing function 
+code reviews - catch error, ensure readability, check standards are met, share knowledge among teams
+
+
