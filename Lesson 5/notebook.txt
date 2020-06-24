@@ -1,0 +1,41 @@
+put machine learning in the hands of every developers
+
+amazon SageMaker
+
+AWS ML Stack
+    AI Services
+    ML Services
+    ML Frameworks + Infrastructure
+
+AI Services
+    vision
+    speech
+    text
+    chatbots
+    personalization
+    forecasting
+    fraud
+    codeguru
+    contact lens
+    kendra
+
+supervised learning --  every training example has a corresponding label
+unsupervised learning -- no labels for training data
+
+one of the promising advances in AI is the past decade
+Generative AI --
+
+AWS DeepComposer
+    GAN Generative Adversarial networks
+
+Machine learning goals
+    Data pre-processing
+    training
+    Evaluation and inference
+    Generating machine learning music
+
+Machine Learning Pipline
+    Data preparation
+    training
+    Evaluation
+    Inference
